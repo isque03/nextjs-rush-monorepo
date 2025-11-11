@@ -1,7 +1,0 @@
-{
-  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/subspaces.schema.json",
-  "subspacesEnabled": false,
-  "splitWorkspaceCompatibility": false,
-  "preventSelectingAllSubspaces": false,
-  "subspaceNames": []
-}
