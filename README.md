@@ -193,10 +193,10 @@ The setup uses Next.js's ability to compile local packages from source, treating
    - TypeScript is transpiled on-the-fly during development
 
 **Benefits:**
-- ✅ Instant hot reload when editing shared library code
-- ✅ No need to rebuild `shared-lib` during development
-- ✅ TypeScript types work correctly
-- ✅ Production builds still use optimized compiled output
+-  Instant hot reload when editing shared library code
+-  No need to rebuild `shared-lib` during development
+-  TypeScript types work correctly
+-  Production builds still use optimized compiled output
 
 **Hot Reload Development Workflow:**
 1. Update dependencies: `rush update`
