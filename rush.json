@@ -33,6 +33,11 @@
       "packageName": "@myorg/shared-lib",
       "projectFolder": "libraries/shared-lib",
       "shouldPublish": false
+    },
+    {
+      "packageName": "@myorg/legacy-extjs-app",
+      "projectFolder": "libraries/legacy-extjs-app",
+      "shouldPublish": false
     }
   ]
 }

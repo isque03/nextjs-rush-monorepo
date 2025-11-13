@@ -2,6 +2,8 @@
   "name": "@myorg/web-app",
   "version": "0.1.0",
   "scripts": {
+    "prebuild": "node scripts/copy-legacy-app.js",
+    "predev": "node scripts/copy-legacy-app.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -12,7 +14,8 @@
     "next": "^16.0.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "@myorg/shared-lib": "workspace:*"
+    "@myorg/shared-lib": "workspace:*",
+    "@myorg/legacy-extjs-app": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.0.0",

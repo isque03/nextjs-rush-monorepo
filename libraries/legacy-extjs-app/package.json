@@ -1,0 +1,13 @@
+{
+  "name": "@myorg/legacy-extjs-app",
+  "version": "0.1.0",
+  "main": "dist/legacy-app.min.js",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
+
